@@ -185,8 +185,8 @@ lsof | grep /var/log   # which process uses log
 ⌨️ Advanced Command Line
 ------------------------
 
-\# xargs example: find . -name "\*.log" | xargs rm -f
-awk '{print $NF}' file            # last field
+\# xargs example: find . -name ".log"  
+
 sed -i '/^#/d' config             # remove comment lines
 cut -d: -f1,6 /etc/passwd
 !!                                  # run last command
